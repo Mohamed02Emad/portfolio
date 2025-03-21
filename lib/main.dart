@@ -4,16 +4,15 @@ import 'package:flutter/material.dart';
 import 'common/app/app.dart';
 import 'common/app/init_services.dart';
 import 'common/di/injection_container.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() async {
   final widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   await configureDependencies();
   await initServices();
-  Future.delayed(Duration(milliseconds: 700)).then((_) {
-    FlutterNativeSplash.remove();
-  });
+  // Future.delayed(Duration(milliseconds: 700)).then((_) {
+  //   FlutterNativeSplash.remove();
+  // });
   runApp(
     EasyLocalization(
       supportedLocales: const [
