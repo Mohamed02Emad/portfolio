@@ -16,7 +16,7 @@ flutter pub run flutter_native_splash:create
 
 build web
 ```shell
-flutter build web && mv build/web ./upload
+flutter build web --release && mv build/web ./upload
 ```
 
 get sha1
