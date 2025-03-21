@@ -14,6 +14,11 @@ splash
 flutter pub run flutter_native_splash:create
 ```
 
+build web
+```shell
+flutter build web && mv build/web ./upload
+```
+
 get sha1
 ```shell
 cd android
