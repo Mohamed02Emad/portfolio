@@ -1,6 +1,6 @@
-import 'package:decorizer/common/theme/custom_theme.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/theme/custom_theme.dart';
 
 import '../../features/landing/presentation/pages/landing_screen.dart';
 import '../constant/size_config.dart';

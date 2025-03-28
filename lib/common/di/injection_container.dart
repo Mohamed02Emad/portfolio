@@ -1,6 +1,6 @@
-import 'package:decorizer/common/di/injection_container.config.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
+import 'package:portfolio/common/di/injection_container.config.dart';
 
 final sl = GetIt.instance;
 

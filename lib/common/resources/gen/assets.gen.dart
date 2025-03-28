@@ -110,9 +110,92 @@ class $AssetsImagePngGen {
   /// File path: assets/image/png/me.jpeg
   AssetGenImage get me => const AssetGenImage('assets/image/png/me.jpeg');
 
+  /// File path: assets/image/png/offeru1.jpeg
+  AssetGenImage get offeru1 =>
+      const AssetGenImage('assets/image/png/offeru1.jpeg');
+
+  /// File path: assets/image/png/offeru10.jpeg
+  AssetGenImage get offeru10 =>
+      const AssetGenImage('assets/image/png/offeru10.jpeg');
+
+  /// File path: assets/image/png/offeru11.jpeg
+  AssetGenImage get offeru11 =>
+      const AssetGenImage('assets/image/png/offeru11.jpeg');
+
+  /// File path: assets/image/png/offeru12.jpeg
+  AssetGenImage get offeru12 =>
+      const AssetGenImage('assets/image/png/offeru12.jpeg');
+
+  /// File path: assets/image/png/offeru13.jpeg
+  AssetGenImage get offeru13 =>
+      const AssetGenImage('assets/image/png/offeru13.jpeg');
+
+  /// File path: assets/image/png/offeru14.jpeg
+  AssetGenImage get offeru14 =>
+      const AssetGenImage('assets/image/png/offeru14.jpeg');
+
+  /// File path: assets/image/png/offeru15.jpeg
+  AssetGenImage get offeru15 =>
+      const AssetGenImage('assets/image/png/offeru15.jpeg');
+
+  /// File path: assets/image/png/offeru2.jpeg
+  AssetGenImage get offeru2 =>
+      const AssetGenImage('assets/image/png/offeru2.jpeg');
+
+  /// File path: assets/image/png/offeru3.jpeg
+  AssetGenImage get offeru3 =>
+      const AssetGenImage('assets/image/png/offeru3.jpeg');
+
+  /// File path: assets/image/png/offeru4.jpeg
+  AssetGenImage get offeru4 =>
+      const AssetGenImage('assets/image/png/offeru4.jpeg');
+
+  /// File path: assets/image/png/offeru5.jpeg
+  AssetGenImage get offeru5 =>
+      const AssetGenImage('assets/image/png/offeru5.jpeg');
+
+  /// File path: assets/image/png/offeru6.jpeg
+  AssetGenImage get offeru6 =>
+      const AssetGenImage('assets/image/png/offeru6.jpeg');
+
+  /// File path: assets/image/png/offeru7.jpeg
+  AssetGenImage get offeru7 =>
+      const AssetGenImage('assets/image/png/offeru7.jpeg');
+
+  /// File path: assets/image/png/offeru8.jpeg
+  AssetGenImage get offeru8 =>
+      const AssetGenImage('assets/image/png/offeru8.jpeg');
+
+  /// File path: assets/image/png/offeru9.jpeg
+  AssetGenImage get offeru9 =>
+      const AssetGenImage('assets/image/png/offeru9.jpeg');
+
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [hyn1, hyn2, hyn3, hyn4, hyn5, hyn6, hyn7, me];
+  List<AssetGenImage> get values => [
+        hyn1,
+        hyn2,
+        hyn3,
+        hyn4,
+        hyn5,
+        hyn6,
+        hyn7,
+        me,
+        offeru1,
+        offeru10,
+        offeru11,
+        offeru12,
+        offeru13,
+        offeru14,
+        offeru15,
+        offeru2,
+        offeru3,
+        offeru4,
+        offeru5,
+        offeru6,
+        offeru7,
+        offeru8,
+        offeru9
+      ];
 }
 
 class $AssetsImageSvgGen {

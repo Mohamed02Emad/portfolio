@@ -1,9 +1,9 @@
-import 'package:decorizer/common/dart/extension/color_extension.dart';
-import 'package:decorizer/common/dart/extension/data_types/double.dart';
-import 'package:decorizer/common/dart/extension/widget.dart';
-import 'package:decorizer/common/widget/app/skeleton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:portfolio/common/dart/extension/color_extension.dart';
+import 'package:portfolio/common/dart/extension/data_types/double.dart';
+import 'package:portfolio/common/dart/extension/widget.dart';
+import 'package:portfolio/common/widget/app/skeleton.dart';
 
 class AppImage extends StatelessWidget {
   final String? path;

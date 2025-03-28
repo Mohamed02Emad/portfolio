@@ -1,7 +1,9 @@
-import 'package:decorizer/common/dart/extension/context_extension.dart';
-import 'package:decorizer/common/dart/extension/text_styles_extention.dart';
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/dart/extension/context_extension.dart';
+import 'package:portfolio/common/dart/extension/data_types/double.dart';
+import 'package:portfolio/common/dart/extension/text_styles_extention.dart';
 
+import '../../util/responsive_util.dart';
 import '../../widget/app/widget_ripple.dart';
 
 extension WidgetExtention on Widget {
@@ -109,16 +111,24 @@ extension WidgetExtention on Widget {
       {required BuildContext context,
       required String title,
       double titlePadding = 16}) {
+    final double space = switch (context.deviceType) {
+      DeviceType.mobile => 4,
+      DeviceType.tablet => 4,
+      DeviceType.desktop => 8,
+    };
+    final style = switch (context.deviceType) {
+      DeviceType.mobile => context.textStyle?.s14,
+      DeviceType.tablet => context.textStyle?.s16,
+      DeviceType.desktop => context.textStyle?.s18,
+    };
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
           title,
-          style: context.textStyle?.s18,
+          style: style?.bold,
         ).marginHorizontal(titlePadding),
-        SizedBox(
-          height: 8,
-        ),
+        space.gap,
         this,
       ],
     );

@@ -1,5 +1,5 @@
-import 'package:decorizer/common/dart/extension/num_duration_extension.dart';
 import 'package:flutter/widgets.dart';
+import 'package:portfolio/common/dart/extension/num_duration_extension.dart';
 
 extension AnimationControllerExtension on AnimationController {
   void animateToTheEnd() {

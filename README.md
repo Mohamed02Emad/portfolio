@@ -27,12 +27,12 @@ cd android
 
 change package
 ```shell
-fvm flutter pub run change_app_package_name:main com.decorizer.mobile
+fvm flutter pub run change_app_package_name:main com.portfolio.mohamed
 ```
 
 change app name
 ```shell
-fvm flutter pub run rename_app:main all="Decorizer"
+fvm flutter pub run rename_app:main all="Portfolio"
 ```
 generate file that contains localization keys
 ```shell

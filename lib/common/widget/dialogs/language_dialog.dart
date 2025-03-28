@@ -1,13 +1,13 @@
-import 'package:decorizer/common/dart/extension/context_extension.dart';
-import 'package:decorizer/common/dart/extension/data_types/int.dart';
-import 'package:decorizer/common/dart/extension/text_styles_extention.dart';
-import 'package:decorizer/common/dart/extension/widget.dart';
-import 'package:decorizer/common/language/language_enum.dart';
-import 'package:decorizer/common/resources/gen/locale_keys.g.dart';
-import 'package:decorizer/common/theme/color/app_colors.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:portfolio/common/dart/extension/context_extension.dart';
+import 'package:portfolio/common/dart/extension/data_types/int.dart';
+import 'package:portfolio/common/dart/extension/text_styles_extention.dart';
+import 'package:portfolio/common/dart/extension/widget.dart';
+import 'package:portfolio/common/language/language_enum.dart';
+import 'package:portfolio/common/resources/gen/locale_keys.g.dart';
+import 'package:portfolio/common/theme/color/app_colors.dart';
 
 import '../app/app_button.dart';
 

@@ -1,6 +1,6 @@
-import 'package:decorizer/common/dart/extension/context_extension.dart';
-import 'package:decorizer/common/widget/dynamic_container.dart';
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/dart/extension/context_extension.dart';
+import 'package:portfolio/common/widget/dynamic_container.dart';
 
 import '../../theme/color/app_colors.dart';
 
