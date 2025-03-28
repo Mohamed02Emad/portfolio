@@ -6,13 +6,8 @@ import 'common/app/init_services.dart';
 import 'common/di/injection_container.dart';
 
 void main() async {
-  final widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   await configureDependencies();
   await initServices();
-  // Future.delayed(Duration(milliseconds: 700)).then((_) {
-  //   FlutterNativeSplash.remove();
-  // });
   runApp(
     EasyLocalization(
       supportedLocales: const [

@@ -86,11 +86,33 @@ class $AssetsTranslationsGen {
 class $AssetsImagePngGen {
   const $AssetsImagePngGen();
 
+  /// File path: assets/image/png/hyn1.jpeg
+  AssetGenImage get hyn1 => const AssetGenImage('assets/image/png/hyn1.jpeg');
+
+  /// File path: assets/image/png/hyn2.jpeg
+  AssetGenImage get hyn2 => const AssetGenImage('assets/image/png/hyn2.jpeg');
+
+  /// File path: assets/image/png/hyn3.jpeg
+  AssetGenImage get hyn3 => const AssetGenImage('assets/image/png/hyn3.jpeg');
+
+  /// File path: assets/image/png/hyn4.jpeg
+  AssetGenImage get hyn4 => const AssetGenImage('assets/image/png/hyn4.jpeg');
+
+  /// File path: assets/image/png/hyn5.jpeg
+  AssetGenImage get hyn5 => const AssetGenImage('assets/image/png/hyn5.jpeg');
+
+  /// File path: assets/image/png/hyn6.jpeg
+  AssetGenImage get hyn6 => const AssetGenImage('assets/image/png/hyn6.jpeg');
+
+  /// File path: assets/image/png/hyn7.jpeg
+  AssetGenImage get hyn7 => const AssetGenImage('assets/image/png/hyn7.jpeg');
+
   /// File path: assets/image/png/me.jpeg
   AssetGenImage get me => const AssetGenImage('assets/image/png/me.jpeg');
 
   /// List of all assets
-  List<AssetGenImage> get values => [me];
+  List<AssetGenImage> get values =>
+      [hyn1, hyn2, hyn3, hyn4, hyn5, hyn6, hyn7, me];
 }
 
 class $AssetsImageSvgGen {

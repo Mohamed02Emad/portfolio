@@ -1,3 +1,5 @@
+import 'package:decorizer/common/dart/extension/context_extension.dart';
+import 'package:decorizer/common/dart/extension/text_styles_extention.dart';
 import 'package:flutter/material.dart';
 
 import '../../widget/app/widget_ripple.dart';
@@ -100,6 +102,25 @@ extension WidgetExtention on Widget {
     return IgnorePointer(
       ignoring: disable,
       child: this,
+    );
+  }
+
+  Widget withTitle(
+      {required BuildContext context,
+      required String title,
+      double titlePadding = 16}) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: context.textStyle?.s18,
+        ).marginHorizontal(titlePadding),
+        SizedBox(
+          height: 8,
+        ),
+        this,
+      ],
     );
   }
 }

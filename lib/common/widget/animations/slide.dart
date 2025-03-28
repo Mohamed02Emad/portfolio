@@ -5,7 +5,7 @@ enum SlideDirection { up, down, left, right, start, end }
 
 class SlideWrapper extends StatefulWidget {
   final Widget child;
-  final double? initialOffset; // Offset in pixels
+  final double? initialOffset;
   final SlideDirection slideDirection;
   final Duration? duration;
   final Duration? startAnimationDelay;

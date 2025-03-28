@@ -7,6 +7,7 @@ import 'package:decorizer/common/theme/color/app_colors.dart';
 import 'package:decorizer/common/util/intent_util.dart';
 import 'package:decorizer/common/widget/animations/fade.dart';
 import 'package:decorizer/common/widget/animations/slide.dart';
+import 'package:decorizer/features/landing/presentation/widgets/auto_slide_images.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -97,7 +98,26 @@ class LandingScreen extends StatelessWidget {
                   ],
                 )
               ],
-            ).marginStart(12).marginTop(12)
+            ).marginStart(12).marginTop(12),
+            AutoSlidingImages(isRtl: true, imagePaths: [
+              Assets.image.png.hyn1.path,
+              Assets.image.png.hyn2.path,
+              Assets.image.png.hyn3.path,
+              Assets.image.png.hyn4.path,
+              Assets.image.png.hyn5.path,
+              Assets.image.png.hyn6.path,
+              Assets.image.png.hyn7.path,
+            ]).withTitle(context: context, title: 'HYN').marginTop(12),
+            AutoSlidingImages(isRtl: false, imagePaths: [
+              Assets.image.png.hyn1.path,
+              Assets.image.png.hyn2.path,
+              Assets.image.png.hyn3.path,
+              Assets.image.png.hyn4.path,
+              Assets.image.png.hyn5.path,
+              Assets.image.png.hyn6.path,
+              Assets.image.png.hyn7.path,
+            ]).withTitle(context: context, title: 'HYN').marginTop(12),
+            50.gap,
           ],
         ),
       ),
