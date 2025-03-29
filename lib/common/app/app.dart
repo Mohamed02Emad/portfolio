@@ -1,6 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/dart/extension/context_extension.dart';
 import 'package:portfolio/common/theme/custom_theme.dart';
+import 'package:portfolio/common/util/responsive_util.dart';
+import 'package:portfolio/features/landing/presentation/pages/portrait_screen.dart';
 
 import '../../features/landing/presentation/pages/landing_screen.dart';
 import '../constant/size_config.dart';
@@ -44,7 +47,9 @@ class AppState extends State<App> with WidgetsBindingObserver {
           title: 'Mohamed Emad\'s Portfolio',
           theme: customTheme,
           debugShowCheckedModeBanner: false,
-          home: const LandingScreen());
+          home: context.deviceType == DeviceType.mobile
+              ? const PortraitScreen()
+              : const LandingScreen());
     });
   }
 

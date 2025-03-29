@@ -4,15 +4,16 @@ class AppColors {
   const AppColors._();
 
   static const Color primary = Color.fromARGB(255, 31, 110, 140);
-  static const Color hintText = Color.fromARGB(255, 157, 178, 191);
-  static const Color shadowColor = Color.fromARGB(255, 25, 58, 112);
-  static const Color background = Color.fromARGB(255, 3, 11, 23);
+  static const Color hintText = Color.fromARGB(255, 147, 134, 128);
+  static const Color shadowColor = Color.fromARGB(255, 143, 107, 89);
+  static const Color background = Color.fromARGB(255, 44, 44, 44);
+  static const Color surface = Color.fromARGB(255, 103, 70, 54);
   static const Color onBackground = Color.fromARGB(255, 67, 85, 133);
   static const Color text = Color.fromARGB(255, 221, 230, 237);
   static const Color primaryLight = Color.fromARGB(255, 116, 9, 56);
   static const Color transparent = Colors.transparent;
 
-  static const Color onPrimary = text;
+  static const Color onPrimary = Color.fromARGB(255, 243, 225, 207);
   static const Color focusedBorder = primary;
 
   static const Color veryDarkGrey = Color.fromARGB(255, 18, 18, 18);

@@ -170,6 +170,38 @@ class $AssetsImagePngGen {
   AssetGenImage get offeru9 =>
       const AssetGenImage('assets/image/png/offeru9.jpeg');
 
+  /// File path: assets/image/png/wasytk1.jpeg
+  AssetGenImage get wasytk1 =>
+      const AssetGenImage('assets/image/png/wasytk1.jpeg');
+
+  /// File path: assets/image/png/wasytk2.jpeg
+  AssetGenImage get wasytk2 =>
+      const AssetGenImage('assets/image/png/wasytk2.jpeg');
+
+  /// File path: assets/image/png/wasytk3.jpeg
+  AssetGenImage get wasytk3 =>
+      const AssetGenImage('assets/image/png/wasytk3.jpeg');
+
+  /// File path: assets/image/png/wasytk4.jpeg
+  AssetGenImage get wasytk4 =>
+      const AssetGenImage('assets/image/png/wasytk4.jpeg');
+
+  /// File path: assets/image/png/wasytk5.jpeg
+  AssetGenImage get wasytk5 =>
+      const AssetGenImage('assets/image/png/wasytk5.jpeg');
+
+  /// File path: assets/image/png/wasytk6.jpeg
+  AssetGenImage get wasytk6 =>
+      const AssetGenImage('assets/image/png/wasytk6.jpeg');
+
+  /// File path: assets/image/png/wasytk7.jpeg
+  AssetGenImage get wasytk7 =>
+      const AssetGenImage('assets/image/png/wasytk7.jpeg');
+
+  /// File path: assets/image/png/wasytk8.jpeg
+  AssetGenImage get wasytk8 =>
+      const AssetGenImage('assets/image/png/wasytk8.jpeg');
+
   /// List of all assets
   List<AssetGenImage> get values => [
         hyn1,
@@ -194,7 +226,15 @@ class $AssetsImagePngGen {
         offeru6,
         offeru7,
         offeru8,
-        offeru9
+        offeru9,
+        wasytk1,
+        wasytk2,
+        wasytk3,
+        wasytk4,
+        wasytk5,
+        wasytk6,
+        wasytk7,
+        wasytk8
       ];
 }
 

@@ -1,5 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:portfolio/features/landing/presentation/cubits/navigation/navigation_cubit.dart';
 
 import 'common/app/app.dart';
 import 'common/app/init_services.dart';
@@ -18,7 +20,10 @@ void main() async {
       startLocale: const Locale('en'),
       path: 'assets/translations',
       useOnlyLangCode: true,
-      child: const App(),
+      child: BlocProvider(
+        create: (context) => NavigationCubit(),
+        child: const App(),
+      ),
     ),
   );
 }

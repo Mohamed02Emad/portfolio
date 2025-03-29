@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/common/dart/extension/data_types/int.dart';
-import 'package:portfolio/features/landing/presentation/widgets/info_section.dart';
-import 'package:portfolio/features/landing/presentation/widgets/sliding_apps_section.dart';
+import 'package:portfolio/features/landing/presentation/widgets/landing/info_landing_section.dart';
+
+import '../widgets/landing/navigation_layout.dart';
 
 class LandingScreen extends StatelessWidget {
   const LandingScreen({super.key});
@@ -9,14 +10,14 @@ class LandingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            const InfoSection(),
-            const SlidingAppsSection(),
-            50.gap,
-          ],
-        ),
+      body: Row(
+        children: [
+          const InfoLandingSection(),
+          8.gap,
+          Expanded(
+            child: NavigationLayout(),
+          ),
+        ],
       ),
     );
   }

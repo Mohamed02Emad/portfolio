@@ -7,17 +7,17 @@ import 'package:portfolio/common/dart/extension/data_types/int.dart';
 import 'package:portfolio/common/dart/extension/widget.dart';
 import 'package:portfolio/common/util/responsive_util.dart';
 
-import '../../../../common/resources/gen/assets.gen.dart';
-import '../../../../common/resources/gen/locale_keys.g.dart';
-import '../../../../common/theme/color/app_colors.dart';
-import '../../../../common/util/intent_util.dart';
-import '../../../../common/widget/animations/fade.dart';
-import '../../../../common/widget/animations/slide.dart';
-import '../../../../common/widget/app/app_image.dart';
-import 'icon_text_row.dart';
+import '../../../../../common/resources/gen/assets.gen.dart';
+import '../../../../../common/resources/gen/locale_keys.g.dart';
+import '../../../../../common/theme/color/app_colors.dart';
+import '../../../../../common/util/intent_util.dart';
+import '../../../../../common/widget/animations/fade.dart';
+import '../../../../../common/widget/animations/slide.dart';
+import '../../../../../common/widget/app/app_image.dart';
+import '../icon_text_row.dart';
 
-class InfoSection extends StatelessWidget {
-  const InfoSection({super.key});
+class InfoPortraitSection extends StatelessWidget {
+  const InfoPortraitSection({super.key});
 
   @override
   Widget build(BuildContext context) {

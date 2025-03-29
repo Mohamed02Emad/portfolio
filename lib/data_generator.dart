@@ -30,4 +30,15 @@ class DataGenerator {
         Assets.image.png.offeru14,
         Assets.image.png.offeru15,
       ];
+
+  static List<AssetGenImage> get wasytkImages => [
+        Assets.image.png.wasytk1,
+        Assets.image.png.wasytk2,
+        Assets.image.png.wasytk3,
+        Assets.image.png.wasytk4,
+        Assets.image.png.wasytk5,
+        Assets.image.png.wasytk6,
+        Assets.image.png.wasytk7,
+        Assets.image.png.wasytk8,
+      ];
 }
