@@ -31,8 +31,11 @@ class SlidingAppsSection extends StatelessWidget {
           FadeAppearWrapper(
             duration: const Duration(milliseconds: 1200),
             child: AutoSlidingImages(
-                    isRtl: true, imagePaths: DataGenerator.wasytkImages)
-                .withTitle(context: context, title: 'Wasytk')
+                    isRtl: false, imagePaths: DataGenerator.wasytkImages)
+                .withTitle(
+                  context: context,
+                  title: 'Wasytk',
+                )
                 .marginTop(12),
           ),
           40.gap,

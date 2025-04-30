@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/dart/extension/widget.dart';
 import 'package:portfolio/features/landing/presentation/widgets/sliding_apps_section.dart';
 
 class PortfolioSection extends StatelessWidget {
@@ -6,6 +7,6 @@ class PortfolioSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SlidingAppsSection();
+    return const SlidingAppsSection().marginTop(20);
   }
 }

@@ -48,6 +48,9 @@
     "take_photo": "Take a Photo",
     "pick_from_gallery": "Pick from Gallery"
   },
+  "about": {
+    "about_me": "Hi, I'm Mohamed Emad — a Flutter Developer with over 4 years of experience in mobile development. My journey began with native Android development, where I taught myself through hands-on projects, coding competitions, and freelance work. I officially started my career as an Android Developer and later transitioned to Flutter within the same company, where I was granted full access to both the Google Play Console and Apple Developer accounts.\n\nIn my role, I successfully handled tasks like migrating apps between developer accounts, recovering lost signing keys, and setting up in-app purchases. I've developed real-time chat features, tracking systems, and implemented offline caching using SQLite. For notifications, I used Firebase Cloud Messaging (FCM). I follow clean architecture principles and use Cubit for state management, blending it with Status Cubit to build elegant and maintainable state flows.\n\nI'm passionate about writing clean code, designing scalable architecture, and delivering high-performance mobile apps."
+  },
   "portfolio" : {
     "my_name" : "Mohamed Emad Eldein" ,
     "current_location" : "Mansoura, Egypt",

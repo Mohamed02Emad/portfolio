@@ -65,7 +65,7 @@ class AppButton extends StatelessWidget {
               borderRadius: radius,
               color: onClick == null
                   ? Colors.grey
-                  : backgroundColor ?? AppColors.primary,
+                  : backgroundColor ?? AppColors.onPrimary,
               border: isBordered
                   ? Border.all(
                       width: 2, color: borderColor ?? AppColors.primary)
@@ -108,7 +108,7 @@ class AppButton extends StatelessWidget {
                                       color: textColor ??
                                           (isBordered
                                               ? borderColor
-                                              : AppColors.onPrimary),
+                                              : AppColors.black),
                                       fontWeight: FontWeight.w500,
                                       fontSize: fontSize ?? 14,
                                     ),

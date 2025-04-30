@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:portfolio/features/landing/presentation/widgets/landing/navigation_sections/about_section.dart';
 import 'package:portfolio/features/landing/presentation/widgets/landing/navigation_sections/contact_section.dart';
 import 'package:portfolio/features/landing/presentation/widgets/landing/navigation_sections/portfolio_section.dart';
-import 'package:portfolio/features/landing/presentation/widgets/landing/navigation_sections/resume_section.dart';
 
 import '../../../data/models/navigation_item.dart';
 
@@ -16,7 +15,7 @@ class NavigationCubit extends Cubit<NavigationState> {
   final navigationItems = [
     NavigationItem('About', AboutSection()),
     NavigationItem('Portfolio', PortfolioSection()),
-    NavigationItem('Resume', ResumeSection()),
+    // NavigationItem('Resume', ResumeSection()),
     NavigationItem('Contact', ContactSection()),
   ];
   late final ValueNotifier<NavigationItem> currentPage;

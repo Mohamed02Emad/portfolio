@@ -110,6 +110,7 @@ extension WidgetExtention on Widget {
   Widget withTitle(
       {required BuildContext context,
       required String title,
+      Widget? actionWidget,
       double titlePadding = 16}) {
     final double space = switch (context.deviceType) {
       DeviceType.mobile => 4,
@@ -124,10 +125,17 @@ extension WidgetExtention on Widget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          title,
-          style: style?.bold,
-        ).marginHorizontal(titlePadding),
+        Row(
+          children: [
+            Expanded(
+              child: Text(
+                title,
+                style: style?.bold,
+              ).marginHorizontal(titlePadding),
+            ),
+            if (actionWidget != null) actionWidget,
+          ],
+        ),
         space.gap,
         this,
       ],

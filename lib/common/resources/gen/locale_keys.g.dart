@@ -48,6 +48,8 @@ abstract class  LocaleKeys {
   static const common_take_photo = 'common.take_photo';
   static const common_pick_from_gallery = 'common.pick_from_gallery';
   static const common = 'common';
+  static const about_about_me = 'about.about_me';
+  static const about = 'about';
   static const portfolio_my_name = 'portfolio.my_name';
   static const portfolio_current_location = 'portfolio.current_location';
   static const portfolio_tracks = 'portfolio.tracks';

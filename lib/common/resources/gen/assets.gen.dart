@@ -24,6 +24,17 @@ class $AssetsAnimationsGen {
   List<LottieGenImage> get values => [loading];
 }
 
+class $AssetsFilesGen {
+  const $AssetsFilesGen();
+
+  /// File path: assets/files/Mohamed-Emad-Flutter-Developer.pdf
+  String get mohamedEmadFlutterDeveloper =>
+      'assets/files/Mohamed-Emad-Flutter-Developer.pdf';
+
+  /// List of all assets
+  List<String> get values => [mohamedEmadFlutterDeveloper];
+}
+
 class $AssetsFontsGen {
   const $AssetsFontsGen();
 
@@ -247,6 +258,9 @@ class $AssetsImageSvgGen {
   /// File path: assets/image/svg/egypt.svg
   SvgGenImage get egypt => const SvgGenImage('assets/image/svg/egypt.svg');
 
+  /// File path: assets/image/svg/email.svg
+  SvgGenImage get email => const SvgGenImage('assets/image/svg/email.svg');
+
   /// File path: assets/image/svg/email_outlined.svg
   SvgGenImage get emailOutlined =>
       const SvgGenImage('assets/image/svg/email_outlined.svg');
@@ -261,6 +275,10 @@ class $AssetsImageSvgGen {
   /// File path: assets/image/svg/linked_in.svg
   SvgGenImage get linkedIn =>
       const SvgGenImage('assets/image/svg/linked_in.svg');
+
+  /// File path: assets/image/svg/linked_in2.svg
+  SvgGenImage get linkedIn2 =>
+      const SvgGenImage('assets/image/svg/linked_in2.svg');
 
   /// File path: assets/image/svg/location.svg
   SvgGenImage get location =>
@@ -286,21 +304,27 @@ class $AssetsImageSvgGen {
   /// File path: assets/image/svg/usa.svg
   SvgGenImage get usa => const SvgGenImage('assets/image/svg/usa.svg');
 
+  /// File path: assets/image/svg/whhats.svg
+  SvgGenImage get whhats => const SvgGenImage('assets/image/svg/whhats.svg');
+
   /// List of all assets
   List<SvgGenImage> get values => [
         code,
         egypt,
+        email,
         emailOutlined,
         github,
         language,
         linkedIn,
+        linkedIn2,
         location,
         options,
         outlinedPhone,
         profile2,
         saudi,
         share,
-        usa
+        usa,
+        whhats
       ];
 }
 
@@ -308,6 +332,7 @@ class Assets {
   const Assets._();
 
   static const $AssetsAnimationsGen animations = $AssetsAnimationsGen();
+  static const $AssetsFilesGen files = $AssetsFilesGen();
   static const $AssetsFontsGen fonts = $AssetsFontsGen();
   static const $AssetsImageGen image = $AssetsImageGen();
   static const $AssetsTranslationsGen translations = $AssetsTranslationsGen();
